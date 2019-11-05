@@ -1,6 +1,7 @@
 # update-kubectl
 
-TLDR: run it as admin to make sure that you have the latest [kubectl.exe](https://kubernetes.io/docs/reference/kubectl/overview/) (optionally with [krew](https://krew.dev/)) on your PATH.
+TLDR: run it as admin on Windows 10 / Windows Server 2019 to make sure that you have the latest [kubectl.exe](https://kubernetes.io/docs/reference/kubectl/overview/) (optionally with [krew](https://krew.dev/)) on your PATH.
+Get it with `curl.exe -LO https://raw.githubusercontent.com/andrewsav-datacom/update-kubectl/master/update-kubectl.ps1`
 
 # Requirements
 
@@ -10,7 +11,7 @@ TLDR: run it as admin to make sure that you have the latest [kubectl.exe](https:
 
 This script is designed to automate download of kubectl.exe on Windows and putting it on PATH.
 It also helps to make sure that the downloaded version is earlier on the PATH 
-than other instances of kubectl.exe, for example, docker installed kubectl.exe.
+than other instances of kubectl.exe, for example, docker installed kubectl.exe - a common problem.
 Additionally it can optionally downolad and install krew plugin manager for kubectl.
 
 ## How does it do it?

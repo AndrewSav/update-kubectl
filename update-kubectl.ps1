@@ -94,7 +94,6 @@ param(
 )
 
 ## Todo: recosider output (colours)
-## Todo: Review/Add comments
 
 $releaseVersion = "0.0.1"
 
